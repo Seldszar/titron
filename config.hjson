@@ -1,0 +1,30 @@
+{
+  /**
+   * The bot username used during the login process.
+   *
+   * @type {String}
+   */
+  username: ""
+
+  /**
+   * The bot password.
+   * You can get one by logging in with the bot account at this address: https://twitchapps.com/tmi/.
+   *
+   * @type {String}
+   */
+  password: ""
+
+  /**
+   * The channel name where the unban requests are performed.
+   *
+   * @type {String}
+   */
+  channel: ""
+
+  /**
+   * The keywords used for unban requests.
+   *
+   * @type {Array<String>}
+   */
+  keywords: []
+}

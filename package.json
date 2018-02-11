@@ -1,0 +1,35 @@
+{
+  "name": "titron",
+  "private": true,
+  "bin": "bin/index.js",
+  "scripts": {
+    "inspect": "node --inspect bin/index.js",
+    "lint": "eslint .",
+    "pack": "npm run lint && pkg --target host --out-path build .",
+    "start": "node bin/index.js"
+  },
+  "dependencies": {
+    "fs-plus": "^3.0.2",
+    "hjson": "^3.1.1",
+    "lodash": "^4.17.5",
+    "lowdb": "^1.0.0",
+    "nanoid": "^1.0.1",
+    "p-throttle": "^1.1.0",
+    "tmi.js": "^1.2.1",
+    "winston": "^3.0.0-rc1",
+    "xregexp": "^4.0.0",
+    "yargs-parser": "^9.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "pkg": "^4.3.0"
+  },
+  "pkg": {
+    "scripts": [
+      "node_modules/logform/**/*.js"
+    ]
+  }
+}
