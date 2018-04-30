@@ -1,5 +1,7 @@
 # Titron
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Seldszar/titron.svg)](https://greenkeeper.io/)
+
 > Each successive kill from this massive electron hammer builds an electron charge that is unleashed on with slam attacks.
 
 This application automatically handle unban requests by viewers wishing being unbanned from a channel.
